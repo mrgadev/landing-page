@@ -82,3 +82,10 @@ label{
     color: black;
     margin-right: 7px;
 }
+
+/* Responsive */
+@media screen and (max-width: 513px) {
+    .container {
+        width: 340px;
+    }
+}

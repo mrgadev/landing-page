@@ -1,0 +1,85 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #d5f0f3;
+    height: 70%;
+}
+
+.login{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container{
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 11pt;
+    padding-bottom: 7px;
+}
+
+.form_login{
+    /*membuat lebar form penuh*/
+    box-sizing : border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol{
+    background: #126e82;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.link a {
+    text-align: center;
+    color: #232323;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.link a:hover {
+    border-bottom: 3px solid #126e82;
+    transition: all .3s ease;
+}
+
+/* copyright */
+.copyright p {
+    float: left;
+    padding-left: 10px;
+    color: black;
+    font-weight: 520;
+}
+
+.menu {
+    float: right;
+    padding-right: 10px
+}
+
+.menu li {
+    display: inline;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 520;
+    cursor: pointer;
+    color: black;
+    margin-right: 7px;
+}
